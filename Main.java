@@ -56,7 +56,8 @@ public class Main {
 //Строим здания на улицах городов:Делегирование, строители возвращают здание.ПОЛИМОРФИЗМ создаются разные объекты через наследование
 // город Malbun строим дома  на улицах
 	    liechtenstein.malbun.street1.builds.
-                add(liechtenstein.builders.makeShop(new Shop(new Address//ПОЛИМОРФИЗМ
+                add(liechtenstein.builders.makeShop(new Shop//ПОЛИМОРФИЗМ
+                        (new Address
                         (liechtenstein.getCountryname(),liechtenstein.malbun.getCityname(),liechtenstein.malbun.street1.getStreetname(),"1"))));
         liechtenstein.malbun.street1.builds.
                 add(liechtenstein.builders.makeSchool(new School(new Address
