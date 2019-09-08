@@ -3,7 +3,7 @@ package com.company;
 import java.util.*;
 
 public class Street implements BuildersAssistent{
-    String streetname;
+    String streetname;//ИНКАПСУЛЯЦИЯ
     Collection<Building> builds = new ArrayList<Building>();
   // ArrayList<School> builds = new ArrayList<>();
 

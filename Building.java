@@ -1,7 +1,7 @@
 package com.company;
 
 public  class Building  {
-        Address address;//Инкапсуляция
+        Address address;
 
     public Building(Address address) {
         this.address = address;

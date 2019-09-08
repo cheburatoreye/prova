@@ -1,7 +1,7 @@
 package com.company;
 
  class City {
-    String cityname;
+    String cityname;//ИНКАПСУЛЯЦИЯ
     Street street1;
     Street street2;
     Street street3;
